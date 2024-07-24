@@ -1,0 +1,96 @@
+/* Navigation */
+.navbar {
+    font-weight: 200;
+    z-index: 3;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.navbar li a{
+    color: #f7f7f7;
+}
+  
+.nav-color {
+    background-color: #205c85;
+    transition: all ease-in-out .3s;
+}
+  
+.navbar-brand {
+  margin-right: auto;
+}
+  
+.navbar-toggler {
+  margin-left: auto;
+}
+  
+.navbar-nav a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    /* color: #cee1f8 !important; */
+}
+  
+.active {
+    color: #fff !important;
+    border-bottom: 2px solid #fff !important;
+}
+  
+  
+/* .navbar-nav .login {
+    border: 1px solid #22c55e;
+    background-color: #22c5c5;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #f4f4f4;
+    text-decoration: none;
+} */
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,247,247,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: #f7f7f7;
+}
+  
+/* Navigation end */
+
+/* Login page */
+
+/* Login End */
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+#home .content h4 {
+    font-size: 3rem;
+    color: white;
+}
+#home .content p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+.button-primary {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .button-primary:hover {
+    background: #7564e5 !important;
+    color: #f7f7f7 !important;
+}
