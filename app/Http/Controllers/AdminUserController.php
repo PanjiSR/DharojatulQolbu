@@ -21,7 +21,7 @@ class AdminUserController extends Controller
             'content' => 'admin/user/index'
         ];
         return view('admin.layouts.wrapper', $data, [
-
+            "title" => "User"
         ]);
     }
 

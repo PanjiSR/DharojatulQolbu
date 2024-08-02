@@ -20,7 +20,7 @@ class AdminProgramController extends Controller
         ];
 
         return view('admin.layouts.wrapper', $data, [
-
+            "title" => "Program & Kegiatan"
         ]);
     }
 
